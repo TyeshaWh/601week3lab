@@ -1,0 +1,16 @@
+{
+  "name": "unit-test-lab",
+  "description": "Unit Test Lab",
+  "author": "Chris Marfia",
+  "private": true,
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0",
+    "jest-junit": "^16.0.0"
+  },
+  "scripts": {
+    "test": "jest ./*",
+    "watch": "jest  --watch ./*"
+  }
+}
